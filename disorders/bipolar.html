@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bipolar & Related — MindOde</title>
+  <meta name="description" content="Bipolar & Related overview (plain-language). Screeners are not diagnoses." />
+  <meta property="og:title" content="Bipolar & Related — MindOde" />
+  <meta property="og:description" content="Bipolar & Related overview (plain-language). Screeners are not diagnoses." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/assets/og-mindode.png" />
+  <meta name="theme-color" content="#0ea5e9" />
+  <script src="https://cdn.tailwindcss.com"></script>
+<script>tailwind.config={theme:{extend:{colors:{brand:{50:'#e6f8ff',500:'#0ea5e9',700:'#0369a1'},mint:{500:'#10b981'}}}}}</script>
+  <link rel="preconnect" href="https://unpkg.com" />
+  <link rel="preconnect" href="https://cdn.tailwindcss.com" />
+  <style>
+    .tooltip{position:fixed;pointer-events:none;padding:.35rem .5rem;border-radius:.375rem;font-size:.75rem;background:rgba(0,0,0,.75);color:#fff;transform:translate(-50%,-120%);white-space:nowrap;z-index:50}
+    .hide{display:none}
+    .glass{backdrop-filter:blur(8px);background:rgba(255,255,255,.75)}
+    .dark-glass{backdrop-filter:blur(10px);background:rgba(0,0,0,.45)}
+    .focus-ring:focus{outline:2px solid #0ea5e9;outline-offset:2px}
+  </style>
+</head>
+<body class="min-h-screen bg-white text-slate-900 antialiased selection:bg-brand-500/20 selection:text-brand-700">
+<a href="#main" class="focus-ring fixed left-4 top-4 z-50 bg-white/90 px-3 py-1 rounded-full shadow">Skip to content</a>
+<header class="w-full sticky top-0 z-40 bg-white/70 glass border-b border-slate-200/70">
+  <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+    <div class="flex items-center gap-3">
+      <div class="h-8 w-8 rounded-xl bg-gradient-to-br from-brand-500 to-brand-700"></div>
+      <a href="/" class="font-semibold">MindOde</a>
+    </div>
+    <nav class="hidden md:flex gap-6 text-sm">
+      <a href="/index.html#poetryrx" class="hover:text-brand-700">Poetry Rx</a>
+      <a href="/poetryrx/index.html" class="hover:text-brand-700">App</a>
+      <a href="/adhd/index.html" class="hover:text-brand-700">ADHD</a>
+      <a href="/disorders/index.html" class="hover:text-brand-700">Disorders</a>
+      <a href="/screening/index.html" class="hover:text-brand-700">Screening</a>
+    </nav>
+    <div class="flex items-center gap-2">
+      <a href="/index.html#signup" class="focus-ring bg-brand-500 hover:bg-brand-700 text-white px-4 py-2 rounded-xl text-sm">Get Started</a>
+      <button id="menuBtn" class="md:hidden focus-ring px-3 py-2 rounded-xl border border-slate-200">Menu</button>
+    </div>
+  </div>
+</header>
+<div id="mobileMenu" class="hidden md:hidden border-b border-slate-200 bg-white/95"><div class="max-w-6xl mx-auto px-4 py-3 grid grid-cols-2 gap-3 text-sm">
+  <a href="/index.html#poetryrx" class="py-1">Poetry Rx</a>
+  <a href="/poetryrx/index.html" class="py-1">App</a>
+  <a href="/adhd/index.html" class="py-1">ADHD</a>
+  <a href="/disorders/index.html" class="py-1">Disorders</a>
+  <a href="/screening/index.html" class="py-1">Screening</a>
+</div></div>
+<main id="main">
+
+<section class="py-10">
+  <div class="max-w-6xl mx-auto px-4">
+    <h1 class="text-3xl md:text-4xl font-extrabold">Bipolar & Related</h1>
+    <p class="mt-2 text-slate-700">Mood swings between lows (depression) and highs (mania/hypomania) that affect energy, sleep, and behavior.</p>
+    <div class="mt-6 grid md:grid-cols-2 gap-6">
+      <div class="p-5 rounded-2xl border bg-white">
+        <h3 class="font-semibold">Common signs</h3>
+        <ul class="list-disc pl-6 text-slate-700">
+          <li>Changes in mood, energy, or sleep</li>
+          <li>Impact on relationships or work/school</li>
+          <li>Distress that lasts for weeks</li>
+        </ul>
+      </div>
+      <div class="p-5 rounded-2xl border bg-white">
+        <h3 class="font-semibold">When to seek help</h3>
+        <p class="text-slate-700 mt-2">If symptoms persist, cause impairment, or raise safety concerns, consider a professional evaluation.</p>
+      </div>
+    </div>
+    <div class="mt-6 p-5 rounded-2xl border bg-slate-50">
+      <h3 class="font-semibold">First‑line approaches (general)</h3>
+      <p class="text-slate-700">Psychoeducation, psychotherapy (e.g., CBT), lifestyle supports (sleep, routine), and when indicated, medications under a psychiatrist’s care.</p>
+    </div>
+    <div class="mt-6"></div>
+    <p class="text-xs text-slate-600 mt-6">This page offers general information and is not a diagnosis.</p>
+  </div>
+</section>
+</main>
+<footer class="py-10 border-t mt-8">
+  <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-6 text-sm">
+    <div>
+      <div class="flex items-center gap-2 font-semibold"><div class="h-6 w-6 rounded-lg bg-gradient-to-br from-brand-500 to-brand-700"></div>MindOde</div>
+      <p class="mt-2 text-slate-700">MindOde Clinic, 1st Floor, Shanti Complex, Bhopal, MP 462001</p>
+      <p class="mt-2"><a href="mailto:care@mindode.example" class="underline">care@mindode.example</a> · <a href="tel:+919876543210" class="underline">+91‑98765‑43210</a></p>
+    </div>
+    <div>
+      <h4 class="font-semibold">Legal</h4>
+      <ul class="mt-2 space-y-1">
+        <li><a href="/privacy.html" class="underline">Privacy</a></li>
+        <li><a href="/terms.html" class="underline">Terms</a></li>
+        <li><a href="/telepsychiatry.html" class="underline">Tele‑psychiatry consent</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="font-semibold">Social</h4>
+      <p class="mt-2 text-slate-700">No ad tracking for PHI. Ever.</p>
+    </div>
+  </div>
+  <p class="text-center text-xs text-slate-500 mt-8">© <span id="year"></span> MindOde</p>
+</footer>
+<script type="module" src="/js/site.js"></script>
+</body></html>
