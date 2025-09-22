@@ -1,9 +1,0 @@
-# Optional: Explicitly mark as static site (no build)
-[build]
-publish = "."
-# command intentionally empty
-
-[[redirects]]
-from = "/*"
-to = "/index.html"
-status = 200
